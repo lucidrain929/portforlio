@@ -5,54 +5,57 @@
   <title>Framework Test Page</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Lobster');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+  </style>
 </head>
 <body>
   <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <img class="image-resonsive"  src="image/laozi.jpg" alt="Laozi">
+    <header class="titleWrapper">
+      <div class="text-uppercase title">
+        <h1 class="titleOne">Taoism</h1>
+        <h3 class="titleTwo">a path to peace</h3>
       </div>
-      <div class="col-md-8 text-uppercase text-right">
-        <h1>Taoism</h1>
-        <h4>path to enlightenment</h4>
+    </header>
+    <section class="main">
+      <aside class="links">
+        <ul class="sideLinks">
+          <li><a href="" class="linkOne">book</a></li>
+          <li><a href="" class="linkOne">contact</a></li>
+          <li><a href="" class="linkOne">donation</a></li>
+        </ul>
+      </aside>
+      <div class="mountainPicContainer text">
+          <img src="image/mountain.jpg" class="image-responsive mountainPic">
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <hr>
+    </section>
+    <article class="article">
+      <div class="articleTitleContainer">
+        <p class="articleTitle">A path to eternity</p>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img class="image-resonsive" src="image/mountain.jpg" alt="mountain">
+      <div class="waterPicContainer">
+        <img src="image/bamboo.jpeg" class="image-responsive bambooImage" alt="bamboo">
+        <p class="Taoism">Taoism</p>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h2>one dimension different paths</h2>
+      <div class="waterPicContainer">
+        <img src="image/water.jpg" class="image-responsive waterImage" alt="water">
+        <p class="Taoism">Taoism</p>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <img class="image-responsive" src="image/bamboo.jpeg" alt="bamboo">
-        <h4>Caufucianism</h4>
-        <p>news</p>
+      <div class="waterPicContainer">
+        <img src="image/flower.jpeg" class="image-responsive flowerImage" alt="flower">
+        <p class="Taoism">Taoism</p>
       </div>
-      <div class="col-md-4">
-        <img class="image-responsive" src="image/bamboo.jpeg" alt="bamboo">
-        <h4>Plato</h4>
-        <p>news</p>
-      </div>
-      <div class="col-md-4">
-        <img class="image-responsive" src="image/bamboo.jpeg" alt="bamboo">
-        <h4>Plato</h4>
-        <p>news</p>
-      </div>
-    </div>
+    </article>
   </div>
 </body>
 </html>

@@ -1,71 +1,224 @@
-/** {
-    border: 1px solid red !important;
-}*/
-
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    font-size: 18px;
 }
 
-.grid {
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
+/** {
+    border: 1px solid black !important;
+}**/
+
+html,body{
+    width:100%;
 }
 
-.row {
-    width: 100%;
-    margin-bottom: 20px;
+
+.container{
     display: flex;
     flex-wrap: wrap;
 }
 
-.col-1 {
-    width: 8.33%;
+.titleWrapper{
+    display: flex;
+    width: 100%;
 }
 
-.col-2 {
-    width: 16.66%;
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: right;
 }
 
-.col-3 {
-    width: 25%;
+.titleOne{
+    width: 100%;
 }
 
-.col-4 {
-    width: 33.33%;
+.titleTwo{
+    width: 100%;
 }
 
-.col-5 {
-    width: 41.66%;
+.titlePic{
+    width: 30%;
 }
 
-.col-6 {
+.title{
+    width: 70%;
+}
+
+.section{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.mountainPicContainer{
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;.
+}
+
+.sideLinks{
+    padding-top: 10%;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.links{
+    width: 30%;
+}
+
+.text{
+    width:48.5%;
+}
+
+.main{
+    display: flex;
+    width:100%;
+}
+
+.eternity{
     width: 50%;
 }
 
-.col-7 {
-    width: 58.33%;
+.mountainPicPadding{
+    width: 20%;
 }
 
-.col-8 {
-    width: 66.66%;
+.article{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.col-9 {
-    width: 75%;
+.linkOne{
+    font-family: 'Shadows Into Light', cursive;
+    font-style: italic;
 }
 
-.col-10 {
-    width: 83.33%;
-}
-
-.col-11 {
-    width: 91.66%;
-}
-
-.col-12 {
+.articleTitleContainer{
     width: 100%;
+}
+
+.waterPicContainer{
+    display: flex;
+    width: 33.3333%;
+}
+
+.bambooImage{
+    width: 60%;
+    height: 185px;
+}
+
+.waterImage{
+    width:60%;
+    height: 185px;
+}
+
+.flowerImage{
+    width:60%;
+    height: 185px;
+}
+
+.Taoism{
+    width:40%;
+    text-align: center;
+}
+
+.mountainPicPadding{
+    width:20%;
+}
+
+.article{
+    padding-bottom: 1.8%;
+}
+
+@media screen and (max-width: 417px){
+    .article{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+           }
+
+    .articleTitleContainer{
+        width:100%;
+    }
+
+    .waterPicContainer{
+        width:100%;
+    }
+
+    .Taoism{
+        padding-top: 20%;
+        background:url("../image/flower.jpg") no-repeat center;
+    }
+
+    .mountainPicContainer{
+        border-radius: 0;
+        overflow: hidden
+    }
+
+    /*.links{
+        width:417px;
+        height:100%;
+        position: absolute;
+        transform:translate(-417px, 0);
+        transition: transform 0.3 ease;
+    }*/
+
+
+
+}
+
+@media screen and (max-width: 375px){
+  .mountainPic{
+    display: none;
+  }
+
+  .mountainPicContainer{
+    display: none;
+    width: 0%;
+  }
+
+  .mountainPicPadding{
+    display: none;
+    width: 0%;
+  }
+
+  .links{
+    text-align: center;
+    width: 100%;
+  }
+
+  .main{
+    width:100%;
+  }
+
+  .text{
+    width: 0%;
+  }
+
+  .articleTitle{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+  }
+
+  .sideLinks{
+    padding-top: 0%;
+  }
+
+  .title{
+    text-align: center;
+    width: 100%;
+  }
+
+  .titleTwo{
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .titleOne{
+    font-family: 'Dancing Script', cursive;
+  }
+
 }
